@@ -1,0 +1,21 @@
+{
+  "name": "discord-database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "wokcommands": "^1.5.3"
+  },
+  "description": ""
+}
