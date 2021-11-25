@@ -40,7 +40,8 @@ client.on("ready", async () => {
   //   keepAlive: true,
   // });
   const wok = new WOKCommands(client, {
-    commandDir: path.join(__dirname, 'commands'),
+    commandsDir: path.join(__dirname, 'commands'),
+    featuresDir: path.join(__dirname, 'features'),
     typeScript: true, //Only use this if you are using Typescript AND "ts-node"
     testServers: ["910108011220041738"],
     botOwners: ["305295568245358603"],
